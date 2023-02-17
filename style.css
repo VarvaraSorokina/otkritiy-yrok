@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.dws-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dws-wrapper {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.dws-form {
+    background: #ffffff;
+    padding: 10px;
+    width: 330px;
+}
+
+.dws-form a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: #298cad;
+}
+
+.dws-form a:hover {
+    color: #36d2ff;
+}
+
+.dws-form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dws-form input {
+    display: block;
+    width: 100%;
+}
+
+.del {
+    display: none;
+}
+
+.dws-form {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.tab-form {
+    background: #ffffff;
+    display: none;
+    padding: 30px 20px 20px;
+}
+
+label.tab {
+    outline: 1px solid orange;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 15px;
+    display: inline-block;
+}
+
+label.tab.active {
+    background: #ffffff;
+    color: #1b5f75;
+    display: block;
+}
+
+label.tab {
+    border-radius: 3px 3px 0 0;
+    margin-bottom: -1px;
+    cursor: pointer;
+}
+
+.input {
+    font-size: 16px;
+    border: 2px solid #e9eaea;
+    padding: 12px 14px;
+    box-sizing: border-box;
+    margin-bottom: 22px;
+    color: #1e8da6;
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #c4c9c9;
+}
+
+/* webkit */
+::-moz-placeholder {
+    color: #298cad;
+}
+
+/* Firefox 19+ */
+:-moz-placeholder {
+    color: #298cad;
+}
+
+/* Firefox 18- */
+:-ms-input-placeholder {
+    color: #298cad;
+}
+
+/* IE */
+
+a.button {
+    background: #298cad;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    line-height: 46px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.social a {
+    outline: 1px solid orange;
+    width: 40px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+}
+
+.social+a {
+    margin-top: 10px;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
